@@ -5,9 +5,6 @@
       <swiper-slide v-for="item in swiperList" :key="item.id">
         <img class="swiper-img" :src="item.imgUrl" />
       </swiper-slide>
-      <!-- <swiper-slide>
-        <img class="swiper-img" src="https://imgs.qunarzz.com/sight/source/1811/b8/5d599bbdcf8b57.jpg_r_640x214_2ee055e3.jpg" />
-      </swiper-slide> -->
       <!-- Optional controls -->
       <div class="swiper-pagination"></div>
     </swiper>
@@ -54,15 +51,15 @@ export default {
 
 <style lang="stylus" scoped>
 .sw-wrapper >>> .swiper-pagination-bullet-active {
-  margin-bottom: 1rem;
   background-color: #fff;
 }
 
 .sw-wrapper {
-  // overflow: hidden;
+  overflow: hidden;
   width: 100%;
-  height: 2.1067rem;
-  // padding-bottom: 26.67%;
+  // height: 2.1067rem;
+  height: 0;
+  padding-bottom: 26.67%;
   background-color: #eee;
 }
 

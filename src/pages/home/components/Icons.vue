@@ -10,15 +10,6 @@
           <p class="icon-desc">{{item.desc}}</p>
         </div>
       </swiper-slide>
-      <!-- <swiper-slide>
-        <div class="icon-box">
-          <div class="icon-img-box">
-            <img class="icon-img" src="https://qimgs.qunarzz.com/piao_qsight_provider_piao_qsight_web/dc9bebac-9f1e-440e-a690-7355a19267e6.jpg_200x200_c8fb3689.jpg" alt="">
-          </div>
-          <p class="icon-desc">景点</p>
-        </div>
-      </swiper-slide> -->
-      <!-- Optional controls -->
       <div class="swiper-pagination"></div>
     </swiper>
   </div>

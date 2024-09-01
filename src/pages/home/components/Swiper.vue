@@ -25,23 +25,27 @@ export default {
       swiperList: [
         {
           id: '001',
-          imgUrl: 'https://imgs.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg'
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM1b12000f4gegmj8C94_Q10.webp'
         },
         {
           id: '002',
-          imgUrl: 'https://imgs.qunarzz.com/sight/source/1811/b8/5d599bbdcf8b57.jpg_r_640x214_2ee055e3.jpg'
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM4c12000f9mrn7kB08A.webp'
         },
         {
           id: '003',
-          imgUrl: 'https://imgs.qunarzz.com/sight/source/1505/92/580e9ea4f37a1b.jpg_r_640x214_72112761.jpg'
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM5712000fa95gar8198.webp'
         },
         {
           id: '004',
-          imgUrl: 'https://imgs.qunarzz.com/sight/source/1811/f8/29dfa785277839.jpg_r_640x214_7d051523.jpg'
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM1b12000f4gegmj8C94_Q10.webp'
         },
         {
           id: '005',
-          imgUrl: 'https://imgs.qunarzz.com/sight/source/1606/88/56f7f4bd0493fe.jpg_r_640x214_f8c0994a.jpg'
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM4c12000f9mrn7kB08A.webp'
+        },
+        {
+          id: '006',
+          imgUrl: 'https://dimg04.c-ctrip.com/images/0AM5712000fa95gar8198.webp'
         }
       ]
     }
@@ -58,13 +62,13 @@ export default {
   overflow: hidden;
   width: 100%;
   // height: 2.1067rem;
-  height: 0;
-  padding-bottom: 26.67%;
+  // height: 0;
+  // padding-bottom: 26.67%;
   background-color: #eee;
 }
 
 .sw-wrapper .swiper-img {
   width: 100%;
-  height: 100%;
+  // height: 100%;
 }
 </style>

@@ -72,8 +72,8 @@ export default {
 
 .header .header-right {
   position: relative;
-  width: 1.32rem;
   height: 100%;
+  min-width: 1.12rem;
   padding-right: .2rem;
   line-height: .88rem;
   text-align: center;
